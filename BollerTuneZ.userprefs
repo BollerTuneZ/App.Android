@@ -1,10 +1,10 @@
 ﻿<Properties StartupItem="BollerTuneZ.csproj" GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.192.168.1.2:5555" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BTZ.App.Communication\MessageProcessor\LoginMessageProcessor.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.SelectDevice" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BTZ.App.Infrastructure\Communication\MessageProcessor\ILoginMessageProcessor.cs">
     <Files>
-      <File FileName="BTZ.App.Infrastructure\Communication\MessageProcessor\ILoginMessageProcessor.cs" Line="30" Column="1" />
-      <File FileName="BTZ.App.Data\Private\LocalUser.cs" Line="1" Column="1" />
-      <File FileName="BTZ.App.Communication\MessageProcessor\LoginMessageProcessor.cs" Line="22" Column="3" />
+      <File FileName="BTZ.App.Communication\RemoteConnection.cs" Line="21" Column="1" />
+      <File FileName="BTZ.App.Communication\MessageProcessor\LoginMessageProcessor.cs" Line="1" Column="1" />
+      <File FileName="BTZ.App.Infrastructure\Communication\MessageProcessor\ILoginMessageProcessor.cs" Line="2" Column="14" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

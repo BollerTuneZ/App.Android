@@ -26,3 +26,15 @@ C:\Git\Android-BollerTuneZApp\BTZ.App.DataAccess\obj\Debug\android\bin\BTZ.App.D
 C:\Git\Android-BollerTuneZApp\BTZ.App.DataAccess\obj\Debug\res\values\strings.xml
 C:\Git\Android-BollerTuneZApp\BTZ.App.DataAccess\obj\Debug\R.cs.flag
 C:\Git\Android-BollerTuneZApp\BTZ.App.DataAccess\obj\Debug\uploadflags.txt
+E:\Jonas\BTZ\App.Android\bin\Debug\BTZ.App.DataAccess.dll
+E:\Jonas\BTZ\App.Android\bin\Debug\BTZ.App.DataAccess.pdb
+E:\Jonas\BTZ\App.Android\bin\Debug\BTZ.App.DataAccess.dll.mdb
+E:\Jonas\BTZ\App.Android\bin\Debug\BTZ.App.DataAccess.apk
+E:\Jonas\BTZ\App.Android\bin\Debug\BTZ.App.DataAccess-Signed.apk
+E:\Jonas\BTZ\App.Android\BTZ.App.DataAccess\obj\Debug\BTZ.App.DataAccess.csprojResolveAssemblyReference.cache
+E:\Jonas\BTZ\App.Android\BTZ.App.DataAccess\obj\Debug\BTZ.App.DataAccess.dll
+E:\Jonas\BTZ\App.Android\BTZ.App.DataAccess\obj\Debug\BTZ.App.DataAccess.pdb
+E:\Jonas\BTZ\App.Android\BTZ.App.DataAccess\obj\Debug\android\bin\BTZ.App.DataAccess.apk
+E:\Jonas\BTZ\App.Android\BTZ.App.DataAccess\obj\Debug\res\values\strings.xml
+E:\Jonas\BTZ\App.Android\BTZ.App.DataAccess\obj\Debug\R.cs.flag
+E:\Jonas\BTZ\App.Android\BTZ.App.DataAccess\obj\Debug\uploadflags.txt

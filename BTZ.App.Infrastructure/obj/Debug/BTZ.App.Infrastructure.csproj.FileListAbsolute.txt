@@ -28,3 +28,16 @@ C:\Git\Android-BollerTuneZApp\BTZ.App.Infrastructure\obj\Debug\android\bin\BTZ.A
 C:\Git\Android-BollerTuneZApp\BTZ.App.Infrastructure\obj\Debug\res\values\strings.xml
 C:\Git\Android-BollerTuneZApp\BTZ.App.Infrastructure\obj\Debug\R.cs.flag
 C:\Git\Android-BollerTuneZApp\BTZ.App.Infrastructure\obj\Debug\uploadflags.txt
+E:\Jonas\BTZ\App.Android\bin\Debug\BTZ.App.Infrastructure.xml
+E:\Jonas\BTZ\App.Android\bin\Debug\BTZ.App.Infrastructure.dll
+E:\Jonas\BTZ\App.Android\bin\Debug\BTZ.App.Infrastructure.pdb
+E:\Jonas\BTZ\App.Android\bin\Debug\BTZ.App.Infrastructure.dll.mdb
+E:\Jonas\BTZ\App.Android\bin\Debug\BTZ.App.Infrastructure.apk
+E:\Jonas\BTZ\App.Android\bin\Debug\BTZ.App.Infrastructure-Signed.apk
+E:\Jonas\BTZ\App.Android\BTZ.App.Infrastructure\obj\Debug\BTZ.App.Infrastructure.csprojResolveAssemblyReference.cache
+E:\Jonas\BTZ\App.Android\BTZ.App.Infrastructure\obj\Debug\BTZ.App.Infrastructure.dll
+E:\Jonas\BTZ\App.Android\BTZ.App.Infrastructure\obj\Debug\BTZ.App.Infrastructure.pdb
+E:\Jonas\BTZ\App.Android\BTZ.App.Infrastructure\obj\Debug\android\bin\BTZ.App.Infrastructure.apk
+E:\Jonas\BTZ\App.Android\BTZ.App.Infrastructure\obj\Debug\res\values\strings.xml
+E:\Jonas\BTZ\App.Android\BTZ.App.Infrastructure\obj\Debug\R.cs.flag
+E:\Jonas\BTZ\App.Android\BTZ.App.Infrastructure\obj\Debug\uploadflags.txt

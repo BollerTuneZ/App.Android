@@ -15,3 +15,15 @@ C:\Git\Android-BollerTuneZApp\BTZ.App.Communication\obj\Debug\android\bin\BTZ.Ap
 C:\Git\Android-BollerTuneZApp\BTZ.App.Communication\obj\Debug\res\values\strings.xml
 C:\Git\Android-BollerTuneZApp\BTZ.App.Communication\obj\Debug\R.cs.flag
 C:\Git\Android-BollerTuneZApp\BTZ.App.Communication\obj\Debug\uploadflags.txt
+E:\Jonas\BTZ\App.Android\bin\Debug\BTZ.App.Communication.dll
+E:\Jonas\BTZ\App.Android\bin\Debug\BTZ.App.Communication.pdb
+E:\Jonas\BTZ\App.Android\bin\Debug\BTZ.App.Communication.dll.mdb
+E:\Jonas\BTZ\App.Android\bin\Debug\BTZ.App.Communication.apk
+E:\Jonas\BTZ\App.Android\bin\Debug\BTZ.App.Communication-Signed.apk
+E:\Jonas\BTZ\App.Android\BTZ.App.Communication\obj\Debug\BTZ.App.Communication.csprojResolveAssemblyReference.cache
+E:\Jonas\BTZ\App.Android\BTZ.App.Communication\obj\Debug\BTZ.App.Communication.dll
+E:\Jonas\BTZ\App.Android\BTZ.App.Communication\obj\Debug\BTZ.App.Communication.pdb
+E:\Jonas\BTZ\App.Android\BTZ.App.Communication\obj\Debug\android\bin\BTZ.App.Communication.apk
+E:\Jonas\BTZ\App.Android\BTZ.App.Communication\obj\Debug\res\values\strings.xml
+E:\Jonas\BTZ\App.Android\BTZ.App.Communication\obj\Debug\R.cs.flag
+E:\Jonas\BTZ\App.Android\BTZ.App.Communication\obj\Debug\uploadflags.txt

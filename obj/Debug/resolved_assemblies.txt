@@ -1,8 +1,0 @@
-C:\bin\Debug\BollerTuneZ.dll
-C:\bin\Debug\BTZ.App.Communication.dll
-C:\bin\Debug\BTZ.App.Data.dll
-C:\bin\Debug\BTZ.App.DataAccess.dll
-C:\bin\Debug\BTZ.App.Infrastructure.dll
-C:\Git\Android-BollerTuneZApp\Components\sqlite-net-1.0.8.3\lib\android\SQLite.dll
-C:\bin\Debug\BTZ.Common.dll
-C:\bin\Debug\Newtonsoft.Json.dll

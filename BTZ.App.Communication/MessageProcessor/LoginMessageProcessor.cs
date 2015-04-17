@@ -20,12 +20,12 @@ namespace BTZ.App.Communication
 
 		#endregion
 
-		readonly IHttpPostProcessor _postProcessor;
+		readonly RemoteConnection _remoteConnection;
 		readonly IPrivateRepository _privateRepo;
 
-		public LoginMessageProcessor (IHttpPostProcessor _postProcessor, IPrivateRepository _privateRepo)
+		public LoginMessageProcessor (RemoteConnection _remoteConnection, IPrivateRepository _privateRepo)
 		{
-			this._postProcessor = _postProcessor;
+			this._remoteConnection = _remoteConnection;
 			this._privateRepo = _privateRepo;
 		}
 
@@ -36,7 +36,6 @@ namespace BTZ.App.Communication
 		public void UserLogin ()
 		{
 			new Thread (() => {
-				string uri = String.Format(BaseUri + LoginUri + "{0}","1234");
 
 				LocalUser user = _privateRepo.GetLocalUser();
 
@@ -46,7 +45,7 @@ namespace BTZ.App.Communication
 					Password = user.Password
 				};
 
-				var result = _postProcessor.PostAction(uri,data);
+				var result = _remoteConnection.RemoteService.Login(SerializeObject(data));
 
 				BoolArgs args;
 
@@ -80,7 +79,6 @@ namespace BTZ.App.Communication
 
 		public void RegisterUser ()
 		{
-			string uri = String.Format(BaseUri + RegUri + "{0}","123");
 
 			LocalUser user = _privateRepo.GetLocalUser();
 
@@ -90,7 +88,7 @@ namespace BTZ.App.Communication
 				Password = user.Password
 			};
 
-			var result = _postProcessor.PostAction(uri,data);
+			var result = _remoteConnection.RemoteService.Register (SerializeObject (data));
 
 			BoolArgs args;
 
@@ -144,6 +142,12 @@ namespace BTZ.App.Communication
 				return null;
 			}
 		}
+
+		string SerializeObject(object obj)
+		{
+			return JsonConvert.SerializeObject (obj);
+		}
+
 	}
 }
 

@@ -5,7 +5,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BollerTuneZ", "BollerTuneZ.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{78D1EA40-CB83-42A3-9283-F909F5998070}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTZ.Common", "..\BollerTuneZOS\BTZ.Server\BTZ.Common\BTZ.Common.csproj", "{AE9AA53D-62D8-4791-A58C-58525AD6A4EB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTZ.Common", "..\App.Server\BTZ.Common\BTZ.Common.csproj", "{AE9AA53D-62D8-4791-A58C-58525AD6A4EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTZ.CommonInterfaces", "..\App.Server\BTZ.Common\BTZ.CommonInterfaces\BTZ.CommonInterfaces.csproj", "{67C7717F-262B-4FDE-9739-4622DFFC740E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTZ.App.Infrastructure", "BTZ.App.Infrastructure\BTZ.App.Infrastructure.csproj", "{C71C0213-38C2-47A0-AD90-B9AE194A78BB}"
 EndProject
@@ -33,6 +35,10 @@ Global
 		{5A5BF698-3E87-433D-86F1-A5D03B20F7D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A5BF698-3E87-433D-86F1-A5D03B20F7D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A5BF698-3E87-433D-86F1-A5D03B20F7D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67C7717F-262B-4FDE-9739-4622DFFC740E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67C7717F-262B-4FDE-9739-4622DFFC740E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67C7717F-262B-4FDE-9739-4622DFFC740E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67C7717F-262B-4FDE-9739-4622DFFC740E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8A543466-29E1-4947-87E2-D54AF8362514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8A543466-29E1-4947-87E2-D54AF8362514}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A543466-29E1-4947-87E2-D54AF8362514}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -48,6 +54,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{AE9AA53D-62D8-4791-A58C-58525AD6A4EB} = {78D1EA40-CB83-42A3-9283-F909F5998070}
+		{67C7717F-262B-4FDE-9739-4622DFFC740E} = {78D1EA40-CB83-42A3-9283-F909F5998070}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		outputpath = ..\..\bin

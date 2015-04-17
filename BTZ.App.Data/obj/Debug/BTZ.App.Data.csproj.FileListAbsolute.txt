@@ -26,3 +26,14 @@ C:\Git\Android-BollerTuneZApp\BTZ.App.Data\obj\Debug\res\values\strings.xml
 C:\Git\Android-BollerTuneZApp\BTZ.App.Data\obj\Debug\R.cs.flag
 C:\Git\Android-BollerTuneZApp\BTZ.App.Data\obj\Debug\uploadflags.txt
 C:\Git\Android-BollerTuneZApp\BTZ.App.Data\obj\Debug\BTZ.App.Data.csprojResolveAssemblyReference.cache
+E:\Jonas\BTZ\App.Android\bin\Debug\BTZ.App.Data.dll
+E:\Jonas\BTZ\App.Android\bin\Debug\BTZ.App.Data.pdb
+E:\Jonas\BTZ\App.Android\bin\Debug\BTZ.App.Data.dll.mdb
+E:\Jonas\BTZ\App.Android\bin\Debug\BTZ.App.Data.apk
+E:\Jonas\BTZ\App.Android\bin\Debug\BTZ.App.Data-Signed.apk
+E:\Jonas\BTZ\App.Android\BTZ.App.Data\obj\Debug\BTZ.App.Data.dll
+E:\Jonas\BTZ\App.Android\BTZ.App.Data\obj\Debug\BTZ.App.Data.pdb
+E:\Jonas\BTZ\App.Android\BTZ.App.Data\obj\Debug\android\bin\BTZ.App.Data.apk
+E:\Jonas\BTZ\App.Android\BTZ.App.Data\obj\Debug\res\values\strings.xml
+E:\Jonas\BTZ\App.Android\BTZ.App.Data\obj\Debug\R.cs.flag
+E:\Jonas\BTZ\App.Android\BTZ.App.Data\obj\Debug\uploadflags.txt
