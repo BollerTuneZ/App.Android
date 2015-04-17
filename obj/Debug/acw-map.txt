@@ -1,0 +1,2 @@
+BollerTuneZ.MainActivity;bollertunez.MainActivity
+BollerTuneZ.ActivityRegLoginTest;bollertunez.ActivityRegLoginTest

@@ -1,0 +1,17 @@
+C:\Git\Android-BollerTuneZApp\bin\Debug\BTZ.App.Communication.dll
+C:\Git\Android-BollerTuneZApp\bin\Debug\BTZ.App.Communication.pdb
+C:\Git\Android-BollerTuneZApp\bin\Debug\BTZ.App.Communication.dll.mdb
+C:\Git\Android-BollerTuneZApp\bin\Debug\BTZ.App.Communication.apk
+C:\Git\Android-BollerTuneZApp\bin\Debug\BTZ.App.Communication-Signed.apk
+C:\bin\Debug\BTZ.App.Communication.dll
+C:\bin\Debug\BTZ.App.Communication.pdb
+C:\bin\Debug\BTZ.App.Communication.dll.mdb
+C:\bin\Debug\BTZ.App.Communication.apk
+C:\bin\Debug\BTZ.App.Communication-Signed.apk
+C:\Git\Android-BollerTuneZApp\BTZ.App.Communication\obj\Debug\BTZ.App.Communication.csprojResolveAssemblyReference.cache
+C:\Git\Android-BollerTuneZApp\BTZ.App.Communication\obj\Debug\BTZ.App.Communication.dll
+C:\Git\Android-BollerTuneZApp\BTZ.App.Communication\obj\Debug\BTZ.App.Communication.pdb
+C:\Git\Android-BollerTuneZApp\BTZ.App.Communication\obj\Debug\android\bin\BTZ.App.Communication.apk
+C:\Git\Android-BollerTuneZApp\BTZ.App.Communication\obj\Debug\res\values\strings.xml
+C:\Git\Android-BollerTuneZApp\BTZ.App.Communication\obj\Debug\R.cs.flag
+C:\Git\Android-BollerTuneZApp\BTZ.App.Communication\obj\Debug\uploadflags.txt
