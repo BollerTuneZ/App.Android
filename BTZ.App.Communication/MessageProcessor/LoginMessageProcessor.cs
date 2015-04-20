@@ -23,9 +23,9 @@ namespace BTZ.App.Communication
 		readonly RemoteConnection _remoteConnection;
 		readonly IPrivateRepository _privateRepo;
 
-		public LoginMessageProcessor (RemoteConnection _remoteConnection, IPrivateRepository _privateRepo)
+		public LoginMessageProcessor (IPrivateRepository _privateRepo)
 		{
-			this._remoteConnection = _remoteConnection;
+			this._remoteConnection = new RemoteConnection ();
 			this._privateRepo = _privateRepo;
 		}
 
@@ -45,7 +45,7 @@ namespace BTZ.App.Communication
 					Password = user.Password
 				};
 
-				var result = _remoteConnection.RemoteService.Login(SerializeObject(data));
+				var result = _remoteConnection.Request(new BaseDto(){JsonObject = JsonConvert.SerializeObject(data), Type = DtoType.Login});
 
 				BoolArgs args;
 
@@ -88,7 +88,7 @@ namespace BTZ.App.Communication
 				Password = user.Password
 			};
 
-			var result = _remoteConnection.RemoteService.Register (SerializeObject (data));
+			var result = _remoteConnection.Request(new BaseDto(){JsonObject = JsonConvert.SerializeObject(data), Type = DtoType.Register});
 
 			BoolArgs args;
 

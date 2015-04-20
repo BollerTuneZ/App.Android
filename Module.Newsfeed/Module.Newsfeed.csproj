@@ -4,22 +4,22 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <ProjectGuid>{52A5DFB3-2139-4E81-A0BA-8DC842FE62C0}</ProjectGuid>
+    <ProjectGuid>{F85B4D71-44A5-4819-B8A7-D8CB70FCA360}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>BTZ.App.Communication</RootNamespace>
+    <RootNamespace>Module.Newsfeed</RootNamespace>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
-    <AssemblyName>BTZ.App.Communication</AssemblyName>
+    <AssemblyName>Module.Newsfeed</AssemblyName>
     <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\bin\Debug</OutputPath>
+    <OutputPath>bin\Debug</OutputPath>
     <DefineConstants>DEBUG;</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -29,7 +29,7 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>full</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\bin\Release</OutputPath>
+    <OutputPath>bin\Release</OutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
@@ -40,51 +40,15 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
-    <Reference Include="System.Net" />
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Zyan.Communication">
-      <HintPath>..\packages\Zyan.2.6\lib\MonoAndroid10\Zyan.Communication.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Serialization" />
-    <Reference Include="Sockets.Plugin.Abstractions">
-      <HintPath>..\packages\rda.SocketsForPCL.1.1.7\lib\MonoAndroid10\Sockets.Plugin.Abstractions.dll</HintPath>
-    </Reference>
-    <Reference Include="Sockets.Plugin">
-      <HintPath>..\packages\rda.SocketsForPCL.1.1.7\lib\MonoAndroid10\Sockets.Plugin.dll</HintPath>
-    </Reference>
-    <Reference Include="BTZ.Common.Communication">
-      <HintPath>..\..\App.Server\bin\Debug\BTZ.Common.Communication.dll</HintPath>
-    </Reference>
-    <Reference Include="BTZ.Common">
-      <HintPath>..\..\App.Server\bin\Debug\BTZ.Common.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Resources\Resource.designer.cs" />
-    <Compile Include="MessageProcessor\LoginMessageProcessor.cs" />
-    <Compile Include="RemoteConnection.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
-    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Strings.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
-  <ItemGroup>
-    <ProjectReference Include="..\BTZ.App.Infrastructure\BTZ.App.Infrastructure.csproj">
-      <Project>{C71C0213-38C2-47A0-AD90-B9AE194A78BB}</Project>
-      <Name>BTZ.App.Infrastructure</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\BTZ.App.Data\BTZ.App.Data.csproj">
-      <Project>{44088ABD-A64D-4A97-9739-022FBA55FBDF}</Project>
-      <Name>BTZ.App.Data</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="MessageProcessor\" />
-  </ItemGroup>
 </Project>
