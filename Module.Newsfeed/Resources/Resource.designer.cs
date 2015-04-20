@@ -37,11 +37,30 @@ namespace Module.Newsfeed
 			}
 		}
 		
-		public partial class String
+		public partial class Layout
 		{
 			
 			// aapt resource value: 0x7f020000
-			public static int library_name = 2130837504;
+			public static int ActivityInnerNewsfeed = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public static int ActivityNewsfeed = 2130837505;
+			
+			static Layout()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Layout()
+			{
+			}
+		}
+		
+		public partial class String
+		{
+			
+			// aapt resource value: 0x7f030000
+			public static int library_name = 2130903040;
 			
 			static String()
 			{

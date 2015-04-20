@@ -19,8 +19,7 @@ namespace Module.Newsfeed
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
-
-			// Create your application here
+			SetContentView (Resource.Layout.ActivityNewsfeed);
 		}
 	}
 }

@@ -48,6 +48,7 @@
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="DatabaseInitialzer.cs" />
     <Compile Include="Repositories\PrivateRepository.cs" />
+    <Compile Include="Repositories\NewsfeedRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

@@ -50,6 +50,8 @@
     <Compile Include="Communication\MessageProcessor\ILoginMessageProcessor.cs" />
     <Compile Include="DataAccess\Private\IPrivateRepository.cs" />
     <Compile Include="Communication\MessageProcessor\EventsArgs\BoolArgs.cs" />
+    <Compile Include="Communication\MessageProcessor\INewsfeedMessageProcessor.cs" />
+    <Compile Include="DataAccess\Repositories\INewsfeedRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -64,6 +66,7 @@
     <Folder Include="DataAccess\" />
     <Folder Include="DataAccess\Private\" />
     <Folder Include="Communication\MessageProcessor\EventsArgs\" />
+    <Folder Include="DataAccess\Repositories\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BTZ.App.Data\BTZ.App.Data.csproj">

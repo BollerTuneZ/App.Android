@@ -12,8 +12,11 @@ namespace BollerTuneZ
 
 		public static void Register()
 		{
+
+			RemoteConnection connection = new RemoteConnection ();
+
+
 			TinyIoCContainer.Current.Register<IPrivateRepository,PrivateRepository> ();
-			TinyIoCContainer.Current.Register<IHttpPostProcessor,HttpPostProcessor> ();
 			TinyIoCContainer.Current.Register<ILoginMessageProcessor,LoginMessageProcessor> ();
 
 		}

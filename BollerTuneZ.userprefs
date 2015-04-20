@@ -1,14 +1,15 @@
 ﻿<Properties StartupItem="BollerTuneZ.csproj" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.SelectDevice" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BTZ.App.Infrastructure\Communication\MessageProcessor\ILoginMessageProcessor.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Module.Newsfeed\ActivityNewsfeed.cs">
     <Files>
-      <File FileName="BTZ.App.Communication\RemoteConnection.cs" Line="21" Column="1" />
-      <File FileName="BTZ.App.Communication\MessageProcessor\LoginMessageProcessor.cs" Line="1" Column="1" />
-      <File FileName="BTZ.App.Infrastructure\Communication\MessageProcessor\ILoginMessageProcessor.cs" Line="2" Column="14" />
+      <File FileName="Module.Newsfeed\ActivityNewsfeed.cs" Line="22" Column="48" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="E:\Jonas\BTZ\App.Android\BTZ.App.Communication\MessageProcessor\LoginMessageProcessor.cs" line="93" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Module.Module.Newsfeed AndroidDesignerPreferredDevice="Nexus 4" AndroidDesignerPreferredTheme="Theme.Material.Light.DarkActionBar" />
 </Properties>
