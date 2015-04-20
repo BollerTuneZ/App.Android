@@ -1,5 +1,6 @@
 ﻿using System;
 using BTZ.Common;
+using BTZ.App.Data;
 
 namespace BTZ.App.Infrastructure
 {
@@ -12,7 +13,7 @@ namespace BTZ.App.Infrastructure
 
 		void GetSingleNewsfeed(int id);
 
-		void PostSingleNewsfeed(NewsfeedDto dto);
+		void PostSingleNewsfeed(WallPost post);
 	}
 }
 

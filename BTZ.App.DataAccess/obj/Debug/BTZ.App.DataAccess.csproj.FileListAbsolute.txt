@@ -31,6 +31,7 @@ E:\Jonas\BTZ\App.Android\bin\Debug\BTZ.App.DataAccess.pdb
 E:\Jonas\BTZ\App.Android\bin\Debug\BTZ.App.DataAccess.dll.mdb
 E:\Jonas\BTZ\App.Android\bin\Debug\BTZ.App.DataAccess.apk
 E:\Jonas\BTZ\App.Android\bin\Debug\BTZ.App.DataAccess-Signed.apk
+E:\Jonas\BTZ\App.Android\BTZ.App.DataAccess\obj\Debug\BTZ.App.DataAccess.csprojResolveAssemblyReference.cache
 E:\Jonas\BTZ\App.Android\BTZ.App.DataAccess\obj\Debug\BTZ.App.DataAccess.dll
 E:\Jonas\BTZ\App.Android\BTZ.App.DataAccess\obj\Debug\BTZ.App.DataAccess.pdb
 E:\Jonas\BTZ\App.Android\BTZ.App.DataAccess\obj\Debug\android\bin\BTZ.App.DataAccess.apk
