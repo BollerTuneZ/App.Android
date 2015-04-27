@@ -58,11 +58,16 @@ namespace BTZ.App.Communication
 				}
 
 				var arrayMessage = JsonConvert.DeserializeObject<ArrayMessage>(result);
-
+				var tempItemList = new List<WallPost>();
 				foreach (var id in arrayMessage.Ids) {
-					GetSingleNewsfeed(id);
+					var convertedWallPost = GetSingleNewsfeedInternal(id);
+					if(convertedWallPost != null)
+					{
+						tempItemList.Add(convertedWallPost);
+					}
 				}
-
+				_newsfeedRepo.AddWallPosts(tempItemList);
+				OnUpdate(this,null);
 			}).Start ();
 		}
 
@@ -111,7 +116,9 @@ namespace BTZ.App.Communication
 				{
 					RequestType = RequestType.PostSingle,
 					SingleDto = dto,
-					Token = _privateRepo.GetLocalUser().Token
+					Token = "123498"
+					//Token = _privateRepo.GetLocalUser().Token
+
 				};
 
 				BaseDto bDto = new BaseDto{
@@ -136,7 +143,37 @@ namespace BTZ.App.Communication
 
 		#endregion
 
+		WallPost GetSingleNewsfeedInternal (int id)
+		{
+				NewsfeedRequest request = new NewsfeedRequest()
+				{
+					RequestType = RequestType.GetSingle,
+					Id = id
+				};
 
+				BaseDto bDto = new BaseDto{
+					Type = DtoType.Newsfeed,
+					JsonObject = JsonConvert.SerializeObject(request)
+				};
+				string result = _remoteConnection.Request(bDto);
+				if (String.IsNullOrEmpty(result)) {
+					Log.Error(Tag,"GetSingleWallpost error result is null");
+				return null;
+				}
+
+				NewsfeedDto dto = JsonConvert.DeserializeObject<NewsfeedDto>(result);
+
+				if(dto == null)
+				{
+					Log.Error(Tag,String.Format("Could not parse newsfeeddto {0}",result));
+				return null;
+				}
+
+				WallPost post = Mapper.Map<NewsfeedDto,WallPost>(dto);
+
+			return post;
+
+		}
 	}
 }
 

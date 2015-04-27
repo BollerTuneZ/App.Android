@@ -29,6 +29,12 @@ namespace BollerTuneZ
 			global::BTZ.App.Communication.Resource.String.ApplicationName = global::BollerTuneZ.Resource.String.ApplicationName;
 			global::BTZ.App.Communication.Resource.String.Hello = global::BollerTuneZ.Resource.String.Hello;
 			global::BTZ.App.Communication.Resource.String.library_name = global::BollerTuneZ.Resource.String.library_name;
+			global::BTZ.App.CommunicationTest.Resource.Id.test_btn_get = global::BollerTuneZ.Resource.Id.test_btn_get;
+			global::BTZ.App.CommunicationTest.Resource.Id.test_btn_post = global::BollerTuneZ.Resource.Id.test_btn_post;
+			global::BTZ.App.CommunicationTest.Resource.Layout.ActivityCommunicationTest = global::BollerTuneZ.Resource.Layout.ActivityCommunicationTest;
+			global::BTZ.App.CommunicationTest.Resource.String.ApplicationName = global::BollerTuneZ.Resource.String.ApplicationName;
+			global::BTZ.App.CommunicationTest.Resource.String.Hello = global::BollerTuneZ.Resource.String.Hello;
+			global::BTZ.App.CommunicationTest.Resource.String.library_name = global::BollerTuneZ.Resource.String.library_name;
 			global::BTZ.App.Data.Resource.String.ApplicationName = global::BollerTuneZ.Resource.String.ApplicationName;
 			global::BTZ.App.Data.Resource.String.Hello = global::BollerTuneZ.Resource.String.Hello;
 			global::BTZ.App.Data.Resource.String.library_name = global::BollerTuneZ.Resource.String.library_name;
@@ -74,14 +80,20 @@ namespace BollerTuneZ
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050002
-			public const int myButton = 2131034114;
+			// aapt resource value: 0x7f050004
+			public const int myButton = 2131034116;
 			
 			// aapt resource value: 0x7f050000
-			public const int test_btn_reg = 2131034112;
+			public const int test_btn_get = 2131034112;
 			
 			// aapt resource value: 0x7f050001
-			public const int test_lbn_status = 2131034113;
+			public const int test_btn_post = 2131034113;
+			
+			// aapt resource value: 0x7f050002
+			public const int test_btn_reg = 2131034114;
+			
+			// aapt resource value: 0x7f050003
+			public const int test_lbn_status = 2131034115;
 			
 			static Id()
 			{
@@ -97,10 +109,13 @@ namespace BollerTuneZ
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int ActivtyTest = 2130903040;
+			public const int ActivityCommunicationTest = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int Main = 2130903041;
+			public const int ActivtyTest = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int Main = 2130903042;
 			
 			static Layout()
 			{

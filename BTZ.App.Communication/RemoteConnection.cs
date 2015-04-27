@@ -27,13 +27,19 @@ namespace BTZ.App.Communication
 
 			var stream = client.GetStream ();
 
-			StreamReader reader = new StreamReader (stream);
+
 			StreamWriter writer = new StreamWriter (stream);
 			writer.AutoFlush = true;
 
 			writer.WriteLine (JsonConvert.SerializeObject (payload));
+			StreamReader reader = new StreamReader (stream);
 
-			return reader.ReadLine ();
+
+			var result = reader.ReadLine ();
+
+
+
+			return result;
 		}
 
 	}

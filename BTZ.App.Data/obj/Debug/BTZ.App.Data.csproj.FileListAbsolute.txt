@@ -37,3 +37,4 @@ E:\Jonas\BTZ\App.Android\BTZ.App.Data\obj\Debug\android\bin\BTZ.App.Data.apk
 E:\Jonas\BTZ\App.Android\BTZ.App.Data\obj\Debug\res\values\strings.xml
 E:\Jonas\BTZ\App.Android\BTZ.App.Data\obj\Debug\R.cs.flag
 E:\Jonas\BTZ\App.Android\BTZ.App.Data\obj\Debug\uploadflags.txt
+E:\Jonas\BTZ\App.Android\BTZ.App.Data\obj\Debug\BTZ.App.Data.csprojResolveAssemblyReference.cache

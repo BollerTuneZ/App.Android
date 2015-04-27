@@ -16,7 +16,9 @@ namespace BTZ.App.DataAccess
 		#region INewsfeedRepository implementation
 		public void AddWallPosts (List<WallPost> wallpost)
 		{
-			DatabaseInitialzer.Database.InsertAll (wallpost);
+			foreach (var item in wallpost) {
+				DatabaseInitialzer.Database.Insert (item);
+			}
 		}
 		public void UpdateWallPosts (List<WallPost> wallpost)
 		{
@@ -31,7 +33,15 @@ namespace BTZ.App.DataAccess
 
 		public List<WallPost> GetWallPosts ()
 		{
-			return DatabaseInitialzer.Database.Table<WallPost> ().ToList ();
+			var query = DatabaseInitialzer.Database.Table<WallPost> ();
+
+			List<WallPost> posts = new List<WallPost> ();
+
+			foreach (var item in query) {
+				posts.Add (item);
+			}
+
+			return posts;
 		}
 		#endregion
 	}

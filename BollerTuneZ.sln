@@ -21,12 +21,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Module", "Module", "{19E250
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module.Newsfeed", "Module.Newsfeed\Module.Newsfeed.csproj", "{F85B4D71-44A5-4819-B8A7-D8CB70FCA360}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E5A91A71-AD35-467B-AA1B-6950570D1735}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTZ.App.CommunicationTest", "BTZ.App.CommunicationTest\BTZ.App.CommunicationTest.csproj", "{3D7808CC-33EA-4B18-A561-2AA07DBFC50F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D7808CC-33EA-4B18-A561-2AA07DBFC50F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D7808CC-33EA-4B18-A561-2AA07DBFC50F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D7808CC-33EA-4B18-A561-2AA07DBFC50F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D7808CC-33EA-4B18-A561-2AA07DBFC50F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{44088ABD-A64D-4A97-9739-022FBA55FBDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{44088ABD-A64D-4A97-9739-022FBA55FBDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44088ABD-A64D-4A97-9739-022FBA55FBDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -64,6 +72,7 @@ Global
 		{AE9AA53D-62D8-4791-A58C-58525AD6A4EB} = {78D1EA40-CB83-42A3-9283-F909F5998070}
 		{67C7717F-262B-4FDE-9739-4622DFFC740E} = {78D1EA40-CB83-42A3-9283-F909F5998070}
 		{F85B4D71-44A5-4819-B8A7-D8CB70FCA360} = {19E2506B-92C3-4EB2-AE68-EE5DB6F839D3}
+		{3D7808CC-33EA-4B18-A561-2AA07DBFC50F} = {E5A91A71-AD35-467B-AA1B-6950570D1735}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		outputpath = ..\..\bin

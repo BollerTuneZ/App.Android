@@ -15,11 +15,18 @@ namespace BTZ.App.DataAccess
 
 		static DatabaseInitialzer ()
 		{
-			DB = new SQLiteConnection (Path.Combine (Environment.GetFolderPath (Environment.SpecialFolder.Personal), "btz.db"));
-
-			DB.CreateTable<LocalUser> ();
+			
 		}
 
+		public static void Init()
+		{
+			DB = new SQLiteConnection (Path.Combine (Environment.GetFolderPath (Environment.SpecialFolder.Personal), "btz.db3"));
+
+			DB.CreateTable<LocalUser> ();
+			DB.CreateTable<WallPost> ();
+			DB.DeleteAll<WallPost> ();
+			DB.Insert (new WallPost (){ Content ="Hallo", Creator = "Jonas", Title = "Test" });
+		}
 		public static SQLiteConnection Database{ get{ return DB; } }
 
 	}

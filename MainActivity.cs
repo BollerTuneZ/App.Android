@@ -5,6 +5,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using BTZ.App.CommunicationTest;
 
 namespace BollerTuneZ
 {
@@ -24,7 +25,7 @@ namespace BollerTuneZ
 			Button button = FindViewById<Button> (Resource.Id.myButton);
 			
 			button.Click += delegate {
-				StartActivity(typeof(ActivityRegLoginTest));
+				StartActivity(typeof(ActivityCommunicationTest));
 			};
 		}
 	}
