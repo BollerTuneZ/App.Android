@@ -40,18 +40,52 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
+    <Reference Include="AutoMapper.Android">
+      <HintPath>..\packages\AutoMapper.3.3.1\lib\MonoAndroid\AutoMapper.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoMapper">
+      <HintPath>..\packages\AutoMapper.3.3.1\lib\MonoAndroid\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.CardView">
+      <HintPath>..\packages\Xamarin.Android.Support.v7.CardView.22.1.1\lib\MonoAndroid403\Xamarin.Android.Support.v7.CardView.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="ActivityNewsfeed.cs" />
+    <Compile Include="TinyIoC.cs" />
+    <Compile Include="WallPostAdapter.cs" />
+    <Compile Include="ActivityWallPostAdd.cs" />
+    <Compile Include="ImageResizer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\layout\ActivityNewsfeed.axml" />
+    <AndroidResource Include="Resources\layout\WallPostItem.axml" />
+    <AndroidResource Include="Resources\layout\ActivityWallPostAdd.axml" />
+    <AndroidResource Include="Resources\menu\NewsfeedMenu.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
     <Folder Include="Resources\layout\" />
+    <Folder Include="Resources\menu\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BTZ.App.Infrastructure\BTZ.App.Infrastructure.csproj">
+      <Project>{C71C0213-38C2-47A0-AD90-B9AE194A78BB}</Project>
+      <Name>BTZ.App.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BTZ.App.DataAccess\BTZ.App.DataAccess.csproj">
+      <Project>{5A5BF698-3E87-433D-86F1-A5D03B20F7D4}</Project>
+      <Name>BTZ.App.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BTZ.App.Data\BTZ.App.Data.csproj">
+      <Project>{44088ABD-A64D-4A97-9739-022FBA55FBDF}</Project>
+      <Name>BTZ.App.Data</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>

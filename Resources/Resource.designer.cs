@@ -29,12 +29,6 @@ namespace BollerTuneZ
 			global::BTZ.App.Communication.Resource.String.ApplicationName = global::BollerTuneZ.Resource.String.ApplicationName;
 			global::BTZ.App.Communication.Resource.String.Hello = global::BollerTuneZ.Resource.String.Hello;
 			global::BTZ.App.Communication.Resource.String.library_name = global::BollerTuneZ.Resource.String.library_name;
-			global::BTZ.App.CommunicationTest.Resource.Id.test_btn_get = global::BollerTuneZ.Resource.Id.test_btn_get;
-			global::BTZ.App.CommunicationTest.Resource.Id.test_btn_post = global::BollerTuneZ.Resource.Id.test_btn_post;
-			global::BTZ.App.CommunicationTest.Resource.Layout.ActivityCommunicationTest = global::BollerTuneZ.Resource.Layout.ActivityCommunicationTest;
-			global::BTZ.App.CommunicationTest.Resource.String.ApplicationName = global::BollerTuneZ.Resource.String.ApplicationName;
-			global::BTZ.App.CommunicationTest.Resource.String.Hello = global::BollerTuneZ.Resource.String.Hello;
-			global::BTZ.App.CommunicationTest.Resource.String.library_name = global::BollerTuneZ.Resource.String.library_name;
 			global::BTZ.App.Data.Resource.String.ApplicationName = global::BollerTuneZ.Resource.String.ApplicationName;
 			global::BTZ.App.Data.Resource.String.Hello = global::BollerTuneZ.Resource.String.Hello;
 			global::BTZ.App.Data.Resource.String.library_name = global::BollerTuneZ.Resource.String.library_name;
@@ -44,6 +38,57 @@ namespace BollerTuneZ
 			global::BTZ.App.Infrastructure.Resource.String.ApplicationName = global::BollerTuneZ.Resource.String.ApplicationName;
 			global::BTZ.App.Infrastructure.Resource.String.Hello = global::BollerTuneZ.Resource.String.Hello;
 			global::BTZ.App.Infrastructure.Resource.String.library_name = global::BollerTuneZ.Resource.String.library_name;
+			global::Module.Newsfeed.Resource.Attribute.cardBackgroundColor = global::BollerTuneZ.Resource.Attribute.cardBackgroundColor;
+			global::Module.Newsfeed.Resource.Attribute.cardCornerRadius = global::BollerTuneZ.Resource.Attribute.cardCornerRadius;
+			global::Module.Newsfeed.Resource.Attribute.cardElevation = global::BollerTuneZ.Resource.Attribute.cardElevation;
+			global::Module.Newsfeed.Resource.Attribute.cardMaxElevation = global::BollerTuneZ.Resource.Attribute.cardMaxElevation;
+			global::Module.Newsfeed.Resource.Attribute.cardPreventCornerOverlap = global::BollerTuneZ.Resource.Attribute.cardPreventCornerOverlap;
+			global::Module.Newsfeed.Resource.Attribute.cardUseCompatPadding = global::BollerTuneZ.Resource.Attribute.cardUseCompatPadding;
+			global::Module.Newsfeed.Resource.Attribute.contentPadding = global::BollerTuneZ.Resource.Attribute.contentPadding;
+			global::Module.Newsfeed.Resource.Attribute.contentPaddingBottom = global::BollerTuneZ.Resource.Attribute.contentPaddingBottom;
+			global::Module.Newsfeed.Resource.Attribute.contentPaddingLeft = global::BollerTuneZ.Resource.Attribute.contentPaddingLeft;
+			global::Module.Newsfeed.Resource.Attribute.contentPaddingRight = global::BollerTuneZ.Resource.Attribute.contentPaddingRight;
+			global::Module.Newsfeed.Resource.Attribute.contentPaddingTop = global::BollerTuneZ.Resource.Attribute.contentPaddingTop;
+			global::Module.Newsfeed.Resource.Color.cardview_dark_background = global::BollerTuneZ.Resource.Color.cardview_dark_background;
+			global::Module.Newsfeed.Resource.Color.cardview_light_background = global::BollerTuneZ.Resource.Color.cardview_light_background;
+			global::Module.Newsfeed.Resource.Color.cardview_shadow_end_color = global::BollerTuneZ.Resource.Color.cardview_shadow_end_color;
+			global::Module.Newsfeed.Resource.Color.cardview_shadow_start_color = global::BollerTuneZ.Resource.Color.cardview_shadow_start_color;
+			global::Module.Newsfeed.Resource.Dimension.cardview_compat_inset_shadow = global::BollerTuneZ.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Module.Newsfeed.Resource.Dimension.cardview_default_elevation = global::BollerTuneZ.Resource.Dimension.cardview_default_elevation;
+			global::Module.Newsfeed.Resource.Dimension.cardview_default_radius = global::BollerTuneZ.Resource.Dimension.cardview_default_radius;
+			global::Module.Newsfeed.Resource.Id.add_wallpost = global::BollerTuneZ.Resource.Id.add_wallpost;
+			global::Module.Newsfeed.Resource.Id.linearLayout1 = global::BollerTuneZ.Resource.Id.linearLayout1;
+			global::Module.Newsfeed.Resource.Id.menu_newsfeed_refresh = global::BollerTuneZ.Resource.Id.menu_newsfeed_refresh;
+			global::Module.Newsfeed.Resource.Id.nf_lv_wallposts = global::BollerTuneZ.Resource.Id.nf_lv_wallposts;
+			global::Module.Newsfeed.Resource.Id.nfa_btn_send = global::BollerTuneZ.Resource.Id.nfa_btn_send;
+			global::Module.Newsfeed.Resource.Id.nfa_cancel = global::BollerTuneZ.Resource.Id.nfa_cancel;
+			global::Module.Newsfeed.Resource.Id.nfa_imgView_img = global::BollerTuneZ.Resource.Id.nfa_imgView_img;
+			global::Module.Newsfeed.Resource.Id.nfa_inp_text = global::BollerTuneZ.Resource.Id.nfa_inp_text;
+			global::Module.Newsfeed.Resource.Id.relativeLayout1 = global::BollerTuneZ.Resource.Id.relativeLayout1;
+			global::Module.Newsfeed.Resource.Id.wp_imgView_mainImage = global::BollerTuneZ.Resource.Id.wp_imgView_mainImage;
+			global::Module.Newsfeed.Resource.Id.wp_lbn_header = global::BollerTuneZ.Resource.Id.wp_lbn_header;
+			global::Module.Newsfeed.Resource.Layout.ActivityNewsfeed = global::BollerTuneZ.Resource.Layout.ActivityNewsfeed;
+			global::Module.Newsfeed.Resource.Layout.ActivityWallPostAdd = global::BollerTuneZ.Resource.Layout.ActivityWallPostAdd;
+			global::Module.Newsfeed.Resource.Layout.WallPostItem = global::BollerTuneZ.Resource.Layout.WallPostItem;
+			global::Module.Newsfeed.Resource.Menu.NewsfeedMenu = global::BollerTuneZ.Resource.Menu.NewsfeedMenu;
+			global::Module.Newsfeed.Resource.String.ApplicationName = global::BollerTuneZ.Resource.String.ApplicationName;
+			global::Module.Newsfeed.Resource.String.Hello = global::BollerTuneZ.Resource.String.Hello;
+			global::Module.Newsfeed.Resource.String.library_name = global::BollerTuneZ.Resource.String.library_name;
+			global::Module.Newsfeed.Resource.Style.CardView = global::BollerTuneZ.Resource.Style.CardView;
+			global::Module.Newsfeed.Resource.Style.CardView_Dark = global::BollerTuneZ.Resource.Style.CardView_Dark;
+			global::Module.Newsfeed.Resource.Style.CardView_Light = global::BollerTuneZ.Resource.Style.CardView_Light;
+			global::Module.Newsfeed.Resource.Styleable.CardView = global::BollerTuneZ.Resource.Styleable.CardView;
+			global::Module.Newsfeed.Resource.Styleable.CardView_cardBackgroundColor = global::BollerTuneZ.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Module.Newsfeed.Resource.Styleable.CardView_cardCornerRadius = global::BollerTuneZ.Resource.Styleable.CardView_cardCornerRadius;
+			global::Module.Newsfeed.Resource.Styleable.CardView_cardElevation = global::BollerTuneZ.Resource.Styleable.CardView_cardElevation;
+			global::Module.Newsfeed.Resource.Styleable.CardView_cardMaxElevation = global::BollerTuneZ.Resource.Styleable.CardView_cardMaxElevation;
+			global::Module.Newsfeed.Resource.Styleable.CardView_cardPreventCornerOverlap = global::BollerTuneZ.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Module.Newsfeed.Resource.Styleable.CardView_cardUseCompatPadding = global::BollerTuneZ.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Module.Newsfeed.Resource.Styleable.CardView_contentPadding = global::BollerTuneZ.Resource.Styleable.CardView_contentPadding;
+			global::Module.Newsfeed.Resource.Styleable.CardView_contentPaddingBottom = global::BollerTuneZ.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Module.Newsfeed.Resource.Styleable.CardView_contentPaddingLeft = global::BollerTuneZ.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Module.Newsfeed.Resource.Styleable.CardView_contentPaddingRight = global::BollerTuneZ.Resource.Styleable.CardView_contentPaddingRight;
+			global::Module.Newsfeed.Resource.Styleable.CardView_contentPaddingTop = global::BollerTuneZ.Resource.Styleable.CardView_contentPaddingTop;
 			global::SQLite.Resource.String.ApplicationName = global::BollerTuneZ.Resource.String.ApplicationName;
 			global::SQLite.Resource.String.Hello = global::BollerTuneZ.Resource.String.Hello;
 		}
@@ -51,12 +96,92 @@ namespace BollerTuneZ
 		public partial class Attribute
 		{
 			
+			// aapt resource value: 0x7f010000
+			public const int cardBackgroundColor = 2130771968;
+			
+			// aapt resource value: 0x7f010001
+			public const int cardCornerRadius = 2130771969;
+			
+			// aapt resource value: 0x7f010002
+			public const int cardElevation = 2130771970;
+			
+			// aapt resource value: 0x7f010003
+			public const int cardMaxElevation = 2130771971;
+			
+			// aapt resource value: 0x7f010005
+			public const int cardPreventCornerOverlap = 2130771973;
+			
+			// aapt resource value: 0x7f010004
+			public const int cardUseCompatPadding = 2130771972;
+			
+			// aapt resource value: 0x7f010006
+			public const int contentPadding = 2130771974;
+			
+			// aapt resource value: 0x7f01000a
+			public const int contentPaddingBottom = 2130771978;
+			
+			// aapt resource value: 0x7f010007
+			public const int contentPaddingLeft = 2130771975;
+			
+			// aapt resource value: 0x7f010008
+			public const int contentPaddingRight = 2130771976;
+			
+			// aapt resource value: 0x7f010009
+			public const int contentPaddingTop = 2130771977;
+			
 			static Attribute()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 			}
 			
 			private Attribute()
+			{
+			}
+		}
+		
+		public partial class Color
+		{
+			
+			// aapt resource value: 0x7f040000
+			public const int cardview_dark_background = 2130968576;
+			
+			// aapt resource value: 0x7f040001
+			public const int cardview_light_background = 2130968577;
+			
+			// aapt resource value: 0x7f040002
+			public const int cardview_shadow_end_color = 2130968578;
+			
+			// aapt resource value: 0x7f040003
+			public const int cardview_shadow_start_color = 2130968579;
+			
+			static Color()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Color()
+			{
+			}
+		}
+		
+		public partial class Dimension
+		{
+			
+			// aapt resource value: 0x7f050000
+			public const int cardview_compat_inset_shadow = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int cardview_default_elevation = 2131034113;
+			
+			// aapt resource value: 0x7f050002
+			public const int cardview_default_radius = 2131034114;
+			
+			static Dimension()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Dimension()
 			{
 			}
 		}
@@ -80,20 +205,47 @@ namespace BollerTuneZ
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050004
-			public const int myButton = 2131034116;
+			// aapt resource value: 0x7f09000c
+			public const int add_wallpost = 2131296268;
 			
-			// aapt resource value: 0x7f050000
-			public const int test_btn_get = 2131034112;
+			// aapt resource value: 0x7f090004
+			public const int linearLayout1 = 2131296260;
 			
-			// aapt resource value: 0x7f050001
-			public const int test_btn_post = 2131034113;
+			// aapt resource value: 0x7f09000d
+			public const int menu_newsfeed_refresh = 2131296269;
 			
-			// aapt resource value: 0x7f050002
-			public const int test_btn_reg = 2131034114;
+			// aapt resource value: 0x7f090009
+			public const int myButton = 2131296265;
 			
-			// aapt resource value: 0x7f050003
-			public const int test_lbn_status = 2131034115;
+			// aapt resource value: 0x7f090001
+			public const int nf_lv_wallposts = 2131296257;
+			
+			// aapt resource value: 0x7f090006
+			public const int nfa_btn_send = 2131296262;
+			
+			// aapt resource value: 0x7f090005
+			public const int nfa_cancel = 2131296261;
+			
+			// aapt resource value: 0x7f090002
+			public const int nfa_imgView_img = 2131296258;
+			
+			// aapt resource value: 0x7f090003
+			public const int nfa_inp_text = 2131296259;
+			
+			// aapt resource value: 0x7f090000
+			public const int relativeLayout1 = 2131296256;
+			
+			// aapt resource value: 0x7f090007
+			public const int test_btn_reg = 2131296263;
+			
+			// aapt resource value: 0x7f090008
+			public const int test_lbn_status = 2131296264;
+			
+			// aapt resource value: 0x7f09000a
+			public const int wp_imgView_mainImage = 2131296266;
+			
+			// aapt resource value: 0x7f09000b
+			public const int wp_lbn_header = 2131296267;
 			
 			static Id()
 			{
@@ -109,13 +261,19 @@ namespace BollerTuneZ
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int ActivityCommunicationTest = 2130903040;
+			public const int ActivityNewsfeed = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int ActivtyTest = 2130903041;
+			public const int ActivityWallPostAdd = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int Main = 2130903042;
+			public const int ActivtyTest = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int Main = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int WallPostItem = 2130903044;
 			
 			static Layout()
 			{
@@ -127,23 +285,39 @@ namespace BollerTuneZ
 			}
 		}
 		
+		public partial class Menu
+		{
+			
+			// aapt resource value: 0x7f080000
+			public const int NewsfeedMenu = 2131230720;
+			
+			static Menu()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Menu()
+			{
+			}
+		}
+		
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int ApplicationName = 2130968577;
+			// aapt resource value: 0x7f070001
+			public const int ApplicationName = 2131165185;
 			
-			// aapt resource value: 0x7f040000
-			public const int Hello = 2130968576;
+			// aapt resource value: 0x7f070000
+			public const int Hello = 2131165184;
 			
-			// aapt resource value: 0x7f040004
-			public const int app_name = 2130968580;
+			// aapt resource value: 0x7f070004
+			public const int app_name = 2131165188;
 			
-			// aapt resource value: 0x7f040003
-			public const int hello = 2130968579;
+			// aapt resource value: 0x7f070003
+			public const int hello = 2131165187;
 			
-			// aapt resource value: 0x7f040002
-			public const int library_name = 2130968578;
+			// aapt resource value: 0x7f070002
+			public const int library_name = 2131165186;
 			
 			static String()
 			{
@@ -151,6 +325,87 @@ namespace BollerTuneZ
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f060000
+			public const int CardView = 2131099648;
+			
+			// aapt resource value: 0x7f060001
+			public const int CardView_Dark = 2131099649;
+			
+			// aapt resource value: 0x7f060002
+			public const int CardView_Light = 2131099650;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
+			{
+			}
+		}
+		
+		public partial class Styleable
+		{
+			
+			public static int[] CardView = new int[] {
+					2130771968,
+					2130771969,
+					2130771970,
+					2130771971,
+					2130771972,
+					2130771973,
+					2130771974,
+					2130771975,
+					2130771976,
+					2130771977,
+					2130771978};
+			
+			// aapt resource value: 0
+			public const int CardView_cardBackgroundColor = 0;
+			
+			// aapt resource value: 1
+			public const int CardView_cardCornerRadius = 1;
+			
+			// aapt resource value: 2
+			public const int CardView_cardElevation = 2;
+			
+			// aapt resource value: 3
+			public const int CardView_cardMaxElevation = 3;
+			
+			// aapt resource value: 5
+			public const int CardView_cardPreventCornerOverlap = 5;
+			
+			// aapt resource value: 4
+			public const int CardView_cardUseCompatPadding = 4;
+			
+			// aapt resource value: 6
+			public const int CardView_contentPadding = 6;
+			
+			// aapt resource value: 10
+			public const int CardView_contentPaddingBottom = 10;
+			
+			// aapt resource value: 7
+			public const int CardView_contentPaddingLeft = 7;
+			
+			// aapt resource value: 8
+			public const int CardView_contentPaddingRight = 8;
+			
+			// aapt resource value: 9
+			public const int CardView_contentPaddingTop = 9;
+			
+			static Styleable()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Styleable()
 			{
 			}
 		}

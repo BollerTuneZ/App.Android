@@ -5,8 +5,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using BTZ.App.CommunicationTest;
-
+using Module.Newsfeed;
 namespace BollerTuneZ
 {
 	[Activity (Label = "BollerTuneZ", MainLauncher = true, Icon = "@drawable/icon")]
@@ -25,7 +24,7 @@ namespace BollerTuneZ
 			Button button = FindViewById<Button> (Resource.Id.myButton);
 			
 			button.Click += delegate {
-				StartActivity(typeof(ActivityCommunicationTest));
+				StartActivity(typeof(ActivityNewsfeed));
 			};
 		}
 	}

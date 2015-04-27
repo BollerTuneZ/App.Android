@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ImageView
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nfa_imgView_img" />
+        <EditText
+            android:inputType="textMultiLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nfa_inp_text" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout1">
+            <Button
+                android:text="Abbrechen"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/nfa_cancel" />
+            <Button
+                android:text="Absenden"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/nfa_btn_send"
+                android:layout_weight="0.5" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

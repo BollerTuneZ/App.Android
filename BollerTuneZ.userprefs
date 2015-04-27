@@ -1,14 +1,12 @@
 ﻿<Properties StartupItem="BollerTuneZ.csproj" GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.SelectDevice" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TinyIoC.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.192.168.1.2:5555" />
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="BTZ.App.Communication\MessageProcessor\NewsfeedMessageProcessor.cs" Line="1" Column="1" />
-      <File FileName="..\App.Server\BTZ.Common\DTO\BaseDto.cs" Line="1" Column="1" />
-      <File FileName="BTZ.App.Infrastructure\Communication\MessageProcessor\INewsfeedMessageProcessor.cs" Line="1" Column="1" />
-      <File FileName="BTZ.App.CommunicationTest\ActivityCommunicationTest.cs" Line="1" Column="1" />
-      <File FileName="BTZ.App.DataAccess\Repositories\NewsfeedRepository.cs" Line="1" Column="1" />
-      <File FileName="Bootstrap\Bootstrapper.cs" Line="1" Column="1" />
-      <File FileName="TinyIoC.cs" Line="70" Column="18" />
+      <File FileName="Module.Newsfeed\WallPostAdapter.cs" Line="45" Column="1" />
+      <File FileName="Module.Newsfeed\ActivityNewsfeed.cs" Line="59" Column="5" />
+      <File FileName="BTZ.App.DataAccess\DatabaseInitialzer.cs" Line="27" Column="6" />
+      <File FileName="Module.Newsfeed\ActivityWallPostAdd.cs" Line="22" Column="1" />
+      <File FileName="MainActivity.cs" Line="14" Column="17" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
@@ -17,6 +15,7 @@
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.AppCommon.BTZ.App.ListAdapter AndroidDesignerPreferredDevice="Nexus 4" />
   <MonoDevelop.Ide.ItemProperties.Tests.BTZ.App.CommunicationTest AndroidDesignerPreferredDevice="Nexus 4" AndroidDesignerPreferredTheme="Theme.Material.Light.DarkActionBar" />
   <MonoDevelop.Ide.ItemProperties.Module.Module.Newsfeed AndroidDesignerPreferredDevice="Nexus 4" AndroidDesignerPreferredTheme="Theme.Material.Light.DarkActionBar" />
 </Properties>

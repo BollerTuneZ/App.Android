@@ -25,7 +25,6 @@ namespace BTZ.App.DataAccess
 			DB.CreateTable<LocalUser> ();
 			DB.CreateTable<WallPost> ();
 			DB.DeleteAll<WallPost> ();
-			DB.Insert (new WallPost (){ Content ="Hallo", Creator = "Jonas", Title = "Test" });
 		}
 		public static SQLiteConnection Database{ get{ return DB; } }
 

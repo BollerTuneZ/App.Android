@@ -46,6 +46,9 @@
       <HintPath>Components\sqlite-net-1.0.8.3\lib\android\SQLite.dll</HintPath>
     </Reference>
     <Reference Include="System.Core" />
+    <Reference Include="Xamarin.Android.Support.v7.CardView">
+      <HintPath>packages\Xamarin.Android.Support.v7.CardView.22.1.1\lib\MonoAndroid403\Xamarin.Android.Support.v7.CardView.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -91,9 +94,9 @@
       <Project>{C71C0213-38C2-47A0-AD90-B9AE194A78BB}</Project>
       <Name>BTZ.App.Infrastructure</Name>
     </ProjectReference>
-    <ProjectReference Include="BTZ.App.CommunicationTest\BTZ.App.CommunicationTest.csproj">
-      <Project>{3D7808CC-33EA-4B18-A561-2AA07DBFC50F}</Project>
-      <Name>BTZ.App.CommunicationTest</Name>
+    <ProjectReference Include="Module.Newsfeed\Module.Newsfeed.csproj">
+      <Project>{F85B4D71-44A5-4819-B8A7-D8CB70FCA360}</Project>
+      <Name>Module.Newsfeed</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>

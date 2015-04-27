@@ -25,6 +25,7 @@ namespace BTZ.App.Infrastructure
 		/// </summary>
 		/// <param name="wallpost">Wallpost.</param>
 		void DeleteWallPosts(List<WallPost> wallpost);
+		void DeleteAllWallPosts();
 
 		/// <summary>
 		/// Liefert alle Wallposts zurück

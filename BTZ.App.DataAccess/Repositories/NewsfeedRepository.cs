@@ -43,6 +43,11 @@ namespace BTZ.App.DataAccess
 
 			return posts;
 		}
+
+		public void DeleteAllWallPosts ()
+		{
+			DatabaseInitialzer.Database.DeleteAll<WallPost> ();
+		}
 		#endregion
 	}
 }
